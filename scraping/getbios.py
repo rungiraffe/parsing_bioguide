@@ -15,6 +15,7 @@ if not os.path.exists(biodirectory):
 
 url = "http://bioguide.congress.gov/biosearch/biosearch1.asp"
 
+#enter Congresses in range
 for i in range(41, 42):
 	i = str(i)
 	
