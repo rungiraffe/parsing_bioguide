@@ -9,7 +9,7 @@ import urllib2
 import datetime
 
 ##------CREATE THE DIRECTORIES------##
-biodirectory = "/Users/Rungiraffe/Desktop/scraped_bioguide/final/bios"
+biodirectory = "" #Insert your directory path here
 if not os.path.exists(biodirectory):
     os.makedirs(biodirectory, 0777)
 
